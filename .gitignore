@@ -1,0 +1,19 @@
+﻿# 只允许头文件；其余一律忽略（兜底）
+*
+!*/
+!*.h
+!*.hpp
+!.gitignore
+!README.md
+!LICENSE
+
+# 构建/IDE 垃圾
+*.iml
+.gradle/
+/build/
+/captures/
+.externalNativeBuild/
+.cxx/
+local.properties
+.DS_Store
+.idea/
